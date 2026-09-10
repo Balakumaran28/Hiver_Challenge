@@ -1,0 +1,23 @@
+[
+  {
+    "id": "email_001",
+    "customer_name": "Alice Smith",
+    "incoming_email": "Hi team, I've been trying to reset my password for the last hour but I haven't received the reset link. Can you please help? I need to access my account urgently.",
+    "context": "Password reset emails might be delayed by up to 5 minutes or caught in the spam folder. If not there, the agent can manually trigger a reset link. Empathize with the urgency.",
+    "reference_reply": "Hi Alice,\n\nI apologize for the frustration this has caused, especially when you need to access your account urgently.\n\nPlease check your spam or junk folder, as the reset link sometimes ends up there. If you still don't see it, let me know, and I can manually generate a reset link for you right away.\n\nBest regards,\nSupport Team"
+  },
+  {
+    "id": "email_002",
+    "customer_name": "Bob Jones",
+    "incoming_email": "Hello, I am looking to upgrade my current 'Pro' plan to the 'Enterprise' plan. How do I go about doing this and will there be any downtime?",
+    "context": "Upgrades from Pro to Enterprise can be done directly from the billing dashboard. There is absolutely no downtime during the upgrade process. Prorated charges apply.",
+    "reference_reply": "Hi Bob,\n\nThanks for reaching out! We're thrilled to hear you want to upgrade to the Enterprise plan.\n\nYou can easily upgrade directly from your billing dashboard. Go to Settings > Billing and select 'Upgrade to Enterprise'. The best part is there will be absolutely zero downtime during this process. Your current plan's remaining balance will be prorated against the new charge.\n\nLet me know if you need help navigating to the dashboard.\n\nBest,\nSupport Team"
+  },
+  {
+    "id": "email_003",
+    "customer_name": "Charlie Davis",
+    "incoming_email": "Your recent software update broke my custom integrations. We are losing money because of this. Fix it now or we are canceling our subscription.",
+    "context": "Acknowledge the severity and apologize sincerely. Escalate the issue to the engineering team immediately. Ask the customer to provide specific error logs or integration details to help the engineers investigate. Maintain a calm and professional tone despite the customer's anger.",
+    "reference_reply": "Hi Charlie,\n\nI am incredibly sorry to hear that the recent update disrupted your custom integrations. I completely understand the impact this has on your business, and we treat this with the highest urgency.\n\nI have immediately escalated this to our engineering team to investigate the root cause. To help them pinpoint the issue faster, could you please share any specific error logs or details about the endpoints that are failing?\n\nWe will get to the bottom of this as quickly as possible. I will keep you updated on the progress.\n\nSincerely,\nSupport Team"
+  }
+]
